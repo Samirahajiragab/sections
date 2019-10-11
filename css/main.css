@@ -3,55 +3,68 @@ html {
   font-family: Lato, regular, bold;
   background-color: #eee9de;
   line-height: 1.5;
-  width: auto;
-  vertical-align: middle;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h2 {
-  font-weight: bold;
-  margin-bottom: 3rem;
-  margin-top: 0;
+body {
+  margin: 0;
 }
 
-div .giza {
-  display: block;
-  padding: 0;
+section {
+  text-align: center;
+  vertical-align: middle;
   margin: 0;
+}
+
+.giza {
+  display: inline-block;
+  max-width: 25em;
+  margin: 1em;
+  padding-top: 2em;
 }
 
 img {
   display: block;
-  padding: 2em;
   width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-body {
+.pyramid {
   display: inline-block;
   max-width: 25em;
   text-align: left;
   margin: 0;
 }
 
-div .pyramid {
-  margin-top: 0;
+h2 {
+  font-weight: bold;
+  display: inline-block;
   padding: 0;
-  margin-bottom: 5rem;
 }
+
 
 p {
-  margin: 0;
-  padding: 0;
+  max-width: 25em;
 }
 
-a {
-  border: 2px solid #666;
-  border-radius: .3em;
-  padding: .5em;
+button {
+  display: inline-block;
+  padding: .6em .75em;
+  border: 3px solid #333;
+  border-radius: 8px;
+  background-color: #eee9de;
+  margin-top: .6em;
+  margin-bottom: 3em;
+  font-size: 1.125em;
+}
+
+.btn {
   text-decoration: none;
   color: #333;
   text-align: center;
+
 }
