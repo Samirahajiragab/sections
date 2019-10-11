@@ -29,7 +29,7 @@ img {
   width: 100%;
 }
 
-section div {
+body {
   display: inline-block;
   max-width: 25em;
   text-align: left;
