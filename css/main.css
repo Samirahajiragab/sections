@@ -33,7 +33,7 @@ body {
   display: inline-block;
   max-width: 25em;
   text-align: left;
-  margin: auto;
+  margin: 0;
 }
 
 div .pyramid {
