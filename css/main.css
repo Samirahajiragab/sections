@@ -22,30 +22,30 @@ section {
 .giza {
   display: inline-block;
   max-width: 25em;
-  margin: 1em;
   padding-top: 2em;
+  margin: 1em;
 }
 
 img {
   display: block;
   width: 100%;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .pyramid {
   display: inline-block;
-  max-width: 25em;
   text-align: left;
-  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 h2 {
   font-weight: bold;
   display: inline-block;
   padding: 0;
+  margin: 0;
 }
-
 
 p {
   max-width: 25em;
@@ -54,11 +54,11 @@ p {
 button {
   display: inline-block;
   padding: .6em .75em;
-  border: 3px solid #333;
+  border: 3px solid #666;
   border-radius: 8px;
   background-color: #eee9de;
-  margin-top: .6em;
-  margin-bottom: 3em;
+  margin-top: 0;
+  margin-bottom: 2em;
   font-size: 1.125em;
 }
 
@@ -66,5 +66,4 @@ button {
   text-decoration: none;
   color: #333;
   text-align: center;
-
 }
