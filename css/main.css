@@ -17,13 +17,18 @@ section {
   text-align: center;
   vertical-align: middle;
   margin: 0;
+  padding-top: 4em;
+  padding-bottom: 2em;
 }
 
 .giza {
   display: inline-block;
   max-width: 25em;
-  padding-top: 2em;
-  margin: 1em;
+  padding-left: .75em;
+  padding-right: .5em;
+  padding-top: 1em;
+  padding-bottom: .75em;
+  vertical-align: middle;
 }
 
 img {
@@ -36,27 +41,36 @@ img {
 .pyramid {
   display: inline-block;
   text-align: left;
-  margin-top: auto;
   margin-bottom: auto;
+  vertical-align: middle;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: .75em;
 }
 
 h2 {
   font-weight: bold;
   display: inline-block;
-  padding: 0;
+  padding-left: .75em;
+  padding-right: 4em;
+  padding-top: 1em;
+  padding-bottom: .75em;
   margin: 0;
 }
 
 p {
   max-width: 25em;
+  padding-left: 1em;
 }
 
-button {
+a {
   display: inline-block;
-  padding: .6em .75em;
+  padding: .5em .75em;
   border: 3px solid #666;
   border-radius: 8px;
   background-color: #eee9de;
+  margin-left: .75em;
   margin-top: 0;
   margin-bottom: 2em;
   font-size: 1.125em;
