@@ -11,78 +11,48 @@ html {
 
 body {
   margin: 0;
-}
-
-section {
-  text-align: center;
-  vertical-align: middle;
-  margin: 0;
-  padding-top: 4em;
-  padding-bottom: 2em;
+  padding: 0;
 }
 
 .giza {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.info {
   display: inline-block;
   max-width: 25em;
-  padding-left: .5em;
-  padding-right: 2em;
-  padding-top: 1em;
-  padding-bottom: .5em;
+  background-color: #eee9de;
+  text-align: left;
   vertical-align: middle;
+  padding: .5em 1em;
 }
 
 img {
   display: block;
   width: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
-  vertical-align: middle;
+  padding-top: 1em;
 }
 
-.pyramid {
-  display: inline-block;
+div {
   text-align: left;
-  margin-bottom: auto;
-  vertical-align: middle;
-  padding-left: 0 auto;
-  padding-right: 2em;
-  padding-top: 1em;
-  padding-bottom: .75em;
-}
-
-h2 {
-  font-weight: bold;
-  display: inline-block;
-  padding-left: 0 auto;
-  padding-right: 2em;
-  padding-top: 1em;
-  padding-bottom: 0 auto;
-  margin: 0;
-}
-
-p {
-  max-width: 25em;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0 auto;
-  padding-right: 4em;
-  padding-top: 1em;
-  padding-bottom: .75em;
-  vertical-align: middle;
-}
-
-a {
-  display: inline-block;
-  padding: .5em .75em;
-  border: 3px solid #666;
-  border-radius: 8px;
-  background-color: #eee9de;
-  margin-left: 0 auto;
-  font-size: 1.125em;
 }
 
 .btn {
+  padding-top: .5em;
+}
+
+.btn a {
+  display: inline-block;
+  padding: .4em .75em .5em;
+  border: 3px solid #333;
+  background-color: #eee9de;
+  border-radius: 8px;
+  color: #666;
   text-decoration: none;
-  color: #333;
-  text-align: center;
+}
+
+.btn a:hover {
+  background-color: #333;
+  color: #fff;
 }
